@@ -1,0 +1,115 @@
+
+sneha@SnehaSunilChowdary MINGW64 ~ (master)
+$ cd desktop
+
+sneha@SnehaSunilChowdary MINGW64 ~/desktop (master)
+$ cd devtraining
+bash: cd: devtraining: No such file or directory
+
+sneha@SnehaSunilChowdary MINGW64 ~/desktop (master)
+$ cd devtraining
+
+sneha@SnehaSunilChowdary MINGW64 ~/desktop/devtraining (master)
+$ git clone https://github.com/snehati/devtrainig.git
+Cloning into 'devtrainig'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+sneha@SnehaSunilChowdary MINGW64 ~/desktop/devtraining (master)
+$ ls
+devtrainig/
+
+sneha@SnehaSunilChowdary MINGW64 ~/desktop/devtraining (master)
+$ cd devtrainig
+
+sneha@SnehaSunilChowdary MINGW64 ~/desktop/devtraining/devtrainig (master)
+$ cd devtraining
+bash: cd: devtraining: No such file or directory
+
+sneha@SnehaSunilChowdary MINGW64 ~/desktop/devtraining/devtrainig (master)
+$ ls
+README.md
+
+sneha@SnehaSunilChowdary MINGW64 ~/desktop/devtraining/devtrainig (master)
+$ cd ..
+
+sneha@SnehaSunilChowdary MINGW64 ~/desktop/devtraining (master)
+$ ls
+devtrainig/
+
+sneha@SnehaSunilChowdary MINGW64 ~/desktop/devtraining (master)
+$ cd devtraining
+bash: cd: devtraining: No such file or directory
+
+sneha@SnehaSunilChowdary MINGW64 ~/desktop/devtraining (master)
+$ cd devtrainig
+
+sneha@SnehaSunilChowdary MINGW64 ~/desktop/devtraining/devtrainig (master)
+$ ls
+README.md
+
+sneha@SnehaSunilChowdary MINGW64 ~/desktop/devtraining/devtrainig (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        hi.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+sneha@SnehaSunilChowdary MINGW64 ~/desktop/devtraining/devtrainig (master)
+$ git add hi.txt
+
+sneha@SnehaSunilChowdary MINGW64 ~/desktop/devtraining/devtrainig (master)
+$ git commit
+[master d00591b] insert to devtrainig
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hi.txt
+
+sneha@SnehaSunilChowdary MINGW64 ~/desktop/devtraining/devtrainig (master)
+$ git log
+commit d00591bcb67809fe454b5822b51e8ed046ee27bb
+Author: snehati <snehatalluri93@gmail.com>
+Date:   Sun Jun 4 00:10:16 2017 -0500
+
+    insert to devtrainig
+
+commit d6cb6699ed66c72b2b31e3a10a083495d9b91c78
+Author: snehati <snehatalluri93@gmail.com>
+Date:   Sat Jun 3 23:52:57 2017 -0500
+
+    Initial commit
+
+sneha@SnehaSunilChowdary MINGW64 ~/desktop/devtraining/devtrainig (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+sneha@SnehaSunilChowdary MINGW64 ~/desktop/devtraining/devtrainig (master)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 280 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/snehati/devtrainig.git
+   d6cb669..d00591b  master -> master
+
+sneha@SnehaSunilChowdary MINGW64 ~/desktop/devtraining/devtrainig (master)
+$ git log
+commit d00591bcb67809fe454b5822b51e8ed046ee27bb
+Author: snehati <snehatalluri93@gmail.com>
+Date:   Sun Jun 4 00:10:16 2017 -0500
+
+    insert to devtrainig
+
+commit d6cb6699ed66c72b2b31e3a10a083495d9b91c78
+Author: snehati <snehatalluri93@gmail.com>
+Date:   Sat Jun 3 23:52:57 2017 -0500
+
+    Initial commit
